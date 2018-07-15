@@ -1,4 +1,4 @@
-FROM debian:8
+FROM centos:7
 
 # create the directory where the application will reside
 RUN mkdir /auth-server 
